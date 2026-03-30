@@ -1,11 +1,13 @@
+let num = prompt("Enter the input here..!")
 
+let digit,rev=0;
 
-let num = Number(prompt("Enter the input number here !"));
-let rev=0;
-while (num>0) {
-    let lastDigit = num %10;
-    rev = rev *10+lastDigit;
-    num=Math.floor(num/10);
+while(num>0)
+{
+    digit=num%10;
+    rev= rev*10+digit;
+    num=Math.floor(num/10)
+    
 }
-console.log(rev);
-document.getElementById("reverse").innerText=rev
+
+console.log();
