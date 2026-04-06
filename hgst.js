@@ -9,7 +9,7 @@ while (num>0)
  if (digit<smallest) {
     smallest=digit;
  }
- num=Math.floor(num/10);
+ num=Math.floor(num/10); 
 }
 console.log(largest);
 console.log(smallest);
