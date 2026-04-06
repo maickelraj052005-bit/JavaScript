@@ -6,7 +6,7 @@ while (num>0)
  if (digit>largest) {
     largest=digit
  }   
- if (digit<smallest) {
+ if (digit<smallest) { 
     smallest=digit;
  }
  num=Math.floor(num/10); 
