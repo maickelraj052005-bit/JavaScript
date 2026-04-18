@@ -5,7 +5,7 @@ let original=153, lastDigit,sum=0,num;
 while(num>0)
 {
     lastDigit= num%10;  
-    sum=sum+Math.pow(lastDigit,3)
+    sum=sum+Math.pow(lastDigit,3) 
     num=Math.floor(num/10)
 }
 let lastResult;
