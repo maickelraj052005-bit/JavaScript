@@ -4,3 +4,4 @@ let res = a!=b
 console.log(res);
  
  
+ 
